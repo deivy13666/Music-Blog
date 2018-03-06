@@ -1,0 +1,68 @@
+body {
+  background: url(../img/background.jpg) no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  font-size: 16px;
+}
+
+.cabecera {
+  background-color: none;
+  min-height: 130px;
+}
+
+.logo {
+  margin-top: 10px;
+  width:100px;
+  filter: invert(100%);
+  display: inline;
+}
+h1{
+	display: inline-block;
+	margin-left: 20px;
+	color: #FF0000;
+}
+
+.redes-sociales {
+  padding: 0px;
+  float: right;
+  margin-top: 70px;
+  }
+  .redes-sociales a{
+  	margin: 0 5px 0 5px;
+  }
+
+.img-social{
+  width: 30px;
+  height: 30px;
+}
+.navbar{
+	background-color: none;
+  text-align: center;
+  display: block;
+}
+.navbar ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.btn-mine{
+  width: 120px;
+  height: auto;
+  border: 2px solid #FF0000;
+  padding: 0 5px 0 5px;
+  margin: 0 10px 0 10px;
+}
+.btn-mine:hover {
+  border-color: #fff;
+  background: #000;
+  transition: .7s ease;
+}
+.context{
+  text-align: justify;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+h3{
+  color: red;
+}
+
+
