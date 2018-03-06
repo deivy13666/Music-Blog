@@ -56,13 +56,23 @@ h1{
   background: #000;
   transition: .7s ease;
 }
-.context{
+p{
   text-align: justify;
   color: white;
   background: rgba(0, 0, 0, 0.5);
 }
 h3{
   color: red;
+}
+.img-ms{
+  position: relative; 
+  margin-top: 60px;
+}
+.comentario {
+  margin-top: 30px;
+  height: 60px;
+  width:50px;
+  padding: 0px;
 }
 
 
