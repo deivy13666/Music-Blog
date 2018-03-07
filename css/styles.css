@@ -51,6 +51,13 @@ h3{
   border: 1px solid red;
   border-radius: 20%;
 }
+.list-group li:hover{
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-color: yellow;
+  border-radius: 10%;
+  transition: .2s ease;
+}
 
 .comentario {
   margin-top: 30px;
