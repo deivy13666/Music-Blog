@@ -35,27 +35,6 @@ h1{
   width: 30px;
   height: 30px;
 }
-.navbar{
-	background-color: none;
-  text-align: center;
-  display: block;
-}
-.navbar ul li a{
-  color: #fff;
-  text-decoration: none;
-}
-.btn-mine{
-  width: 120px;
-  height: auto;
-  border: 2px solid #FF0000;
-  padding: 0 5px 0 5px;
-  margin: 0 10px 0 10px;
-}
-.btn-mine:hover {
-  border-color: #fff;
-  background: #000;
-  transition: .7s ease;
-}
 p{
   text-align: justify;
   color: white;
@@ -64,15 +43,26 @@ p{
 h3{
   color: red;
 }
-.img-ms{
-  position: relative; 
-  margin-top: 60px;
-}
+
 .comentario {
   margin-top: 30px;
   height: 60px;
   width:50px;
   padding: 0px;
 }
+.img-responsive{
+  padding-top: 80px;
+}
 
+@media (min-width:770px) {
+/*Clase para ocultar componentes html*/
+.img-responsive{
+  margin-top: 80px;
+  height: 100%;
+  width:100%;
+  display: block;
+  margin:auto;
+}
+
+}
 
