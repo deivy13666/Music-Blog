@@ -44,6 +44,14 @@ h3{
   color: red;
 }
 
+.list-group li{
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-bottom: 1px;
+  border: 1px solid red;
+  border-radius: 20%;
+}
+
 .comentario {
   margin-top: 30px;
   height: 60px;
